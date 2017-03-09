@@ -220,7 +220,14 @@
             <version>1.0.0</version>
             <scope>test</scope>
         </dependency>
-		<dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
 			<groupId>org.codehaus.mojo</groupId>
 			<artifactId>animal-sniffer-annotations</artifactId>
 			<version>1.9</version>
